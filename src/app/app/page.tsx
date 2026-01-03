@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { authOptions } from '@/lib/auth/options';
 import { prisma } from '@/lib/db';
 import { getMonthlyUsage, FREE_MONTHLY_LIMIT, isProUser } from '@/lib/entitlements';
 import { Button } from '@/components/ui/button';
