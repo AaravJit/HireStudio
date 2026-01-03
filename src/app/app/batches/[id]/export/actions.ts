@@ -1,7 +1,7 @@
 'use server';
 
 import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { authOptions } from '@/lib/auth/options';
 import { prisma } from '@/lib/db';
 import { renderResumePdf } from '@/lib/export/pdf';
 import { renderResumeDocx } from '@/lib/export/docx';

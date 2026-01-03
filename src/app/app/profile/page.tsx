@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { authOptions } from '@/lib/auth/options';
 import { prisma } from '@/lib/db';
 import { upsertMasterProfile } from './actions';
 import { Button } from '@/components/ui/button';
